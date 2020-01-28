@@ -1,6 +1,6 @@
 {
   "app_name": "debugger",
   "author": "hoge",
-  "main_module": "src/main/python/pattern_a/main.py",
+  "main_module": "src/main/python/pattern_b/main.py",
   "version": "0.0.0"
 }
