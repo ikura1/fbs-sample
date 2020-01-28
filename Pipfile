@@ -4,13 +4,20 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+black = "*"
+flake8 = "*"
 
 [packages]
 pyside2 = "*"
 fbs = "*"
+opencv-python = "*"
+pyinstaller = "==3.5"
 
 [requires]
 python_version = "3.7"
 
 [scripts]
 uic = "pyside2-uic -o src/main/python/forms/ui/window.py src/main/python/forms/ui/window.ui"
+
+[pipenv]
+allow_prereleases = true
