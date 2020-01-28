@@ -11,6 +11,7 @@ flake8 = "*"
 pyside2 = "*"
 fbs = "*"
 opencv-python = "*"
+pypiwin32 = "*"
 pyinstaller = "==3.5"
 
 [requires]
@@ -18,6 +19,7 @@ python_version = "3.7"
 
 [scripts]
 uic = "pyside2-uic -o src/main/python/forms/ui/window.py src/main/python/forms/ui/window.ui"
+build = "pyinstaller main.spec"
 
 [pipenv]
 allow_prereleases = true

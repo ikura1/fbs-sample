@@ -1,6 +1,7 @@
 {
   "app_name": "debugger",
   "author": "hoge",
-  "main_module": "src/main/python/pattern_c/main.py",
-  "version": "0.0.0"
+  "main_module": "src/main/python/pattern_d/main.py",
+  "version": "0.0.0",
+  "hidden_imports": ["pkg_resources.py2_warn"]
 }
