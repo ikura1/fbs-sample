@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pyside2 = "*"
+fbs = "*"
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+uic = "pyside2-uic -o src/main/python/forms/ui/window.py src/main/python/forms/ui/window.ui"
